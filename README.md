@@ -18,9 +18,13 @@ Install as `pip install selenium`
 
 - run as (Use 2/3 according to python version)  
 -**Python 2**  
-`python image_download_python2.py <query> <number of images>`  
+`python image_download_python2.py <query> <number of images>`
+-**Example**
+`python image_download_python2.py "Pulp Fiction" 100`
 -**Python 3**  
-`python image_download_python3.py <query> <number of images>`  
+`python image_download_python3.py <query> <number of images>`
+-**Example**
+`python image_download_python3.py "Pulp Fiction" 100`
 where:  
 `<query>`: is the the query to search for.  
 `<number of images>`: min(`<number of images>`, total google results) will be downloaded.  
